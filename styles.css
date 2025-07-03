@@ -1,0 +1,86 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: beige;
+}
+
+.logoencabezado {
+    width: 5vw;
+}
+
+nav a{
+    margin-left: 1vw;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between ;
+}
+
+footer{
+    background-color: beige;
+}
+
+footer img{
+    width: 5%;
+}
+
+article{
+    text-align: center;
+}
+
+article img{
+    width: 20vw;
+    height: 10vw;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: brown;
+    font-size: larger;
+    font-size: 2vw;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: "→ ";
+}
+
+.experiencias {
+    text-align: center;
+}
+
+h4{
+    text-decoration: underline;
+    color: teal;
+}
+
+#Logito{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
